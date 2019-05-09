@@ -1,0 +1,28 @@
+{
+  "name": "al-tayer-movie-search-site",
+  "version": "1.0.0",
+  "description": "Movie Search Site for Al Tayer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client-install": "npm install --prefix client",
+    "install-project": "concurrently \"npm install\" \npm run client-install\"",
+    "start-proj": "npm install && npm install --prefix client && npm run dev",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Vaibhav Shah",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "cors": "^2.8.5",
+    "create-react-app": "^2.1.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10"
+  }
+}

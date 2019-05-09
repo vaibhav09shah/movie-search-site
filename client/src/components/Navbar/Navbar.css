@@ -1,0 +1,14 @@
+.navBar{
+    margin: 0px;
+    border: 2px solid;
+    width: 100%;
+    text-align: center;
+    background-color: orange;
+    margin-top:20px;
+}
+
+.navBar h1{
+    font-weight: 800;
+    text-decoration: none;
+}
+

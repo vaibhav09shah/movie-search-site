@@ -1,0 +1,38 @@
+.row {
+	text-align: center;
+}
+.column{
+    width: 30%;
+	display: inline-block;
+	margin: 20px 1%;
+	vertical-align: top;
+}
+.column:nth-child(3){
+	margin-right: 0;
+}
+
+h2{
+    font-size: 16px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .column{
+        width: 30.5%;
+		margin: 0 1%;
+		display: inline-block;
+        box-sizing: border-box;
+    }
+  }
+@media screen and (max-width: 560px) {
+    .column{
+        width: 46%;
+		margin: 0 1;
+		display: inline-block;
+        box-sizing: border-box;
+    }
+  }

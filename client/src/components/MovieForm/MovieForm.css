@@ -1,0 +1,18 @@
+.myForm{
+    padding: 0;
+    margin: 20px auto;
+	width: 100%;
+}
+
+.myForm .form-group{
+    padding-bottom: 15px;
+}
+
+.myForm label{
+    display: block;
+}
+
+.myForm input[type="text"], .myForm textarea{
+    padding: 8px 2.5%;
+    width: 95%;
+}
